@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.1
+
+- "Generator->AchievementsImages" setting renamed to "Generator->AchievementImages"
+- Added "Experimental->crash_printer_location" setting.
+
 ## v2.0.0
 
 - The name has been changed to SKSLauncherMini.
