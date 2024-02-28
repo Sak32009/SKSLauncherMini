@@ -330,6 +330,14 @@
 
 `./path/relative/to/dll/crashes.txt`
 
+### Experimental -> ip_country [type: string] [default: empty]
+
+> NO_DESCRIPTION
+
+#### EXAMPLES:
+
+`US`
+
 ### Experimental -> achievements_bypass [type: bool] [default: false]
 
 > NO_DESCRIPTION
@@ -346,7 +354,19 @@
 
 > NO_DESCRIPTION
 
-### Experimental -> disable_overlay_warning [type: bool] [default: false]
+### Experimental -> disable_overlay_warning_any [type: bool] [default: false]
+
+> NO_DESCRIPTION
+
+### Experimental -> disable_overlay_warning_bad_appid [type: bool] [default: false]
+
+> NO_DESCRIPTION
+
+### Experimental -> disable_overlay_warning_forced_setting [type: bool] [default: false]
+
+> NO_DESCRIPTION
+
+### Experimental -> disable_overlay_warning_local_save [type: bool] [default: false]
 
 > NO_DESCRIPTION
 
@@ -354,7 +374,11 @@
 
 > NO_DESCRIPTION
 
-### Experimental -> http_online [type: bool] [default: false]
+### Experimental -> download_steamhttp_requests [type: bool] [default: false]
+
+> NO_DESCRIPTION
+
+### Experimental -> force_steamhttp_success [type: bool] [default: false]
 
 > NO_DESCRIPTION
 
