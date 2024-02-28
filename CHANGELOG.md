@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.0.2
+
+- Fixed https://github.com/otavepto/gbe_fork/issues/64
+- Fixed an issue with appids that don't have achievements.
+- Now depots.txt only contains the ids of the depots that are for Windows os.
+  Set "Retriever->RetrieveDLC" to "true" to get a complete list.
+- Now while the notification is shown the notification sound is played.
+  Previously the notification sound would only play after the notification was shown.
+- Added "Experimental->ip_country", "Experimental->disable_overlay_warning_any", "Experimental->disable_overlay_warning_bad_appid", "Experimental->disable_overlay_warning_forced_setting", "Experimental->disable_overlay_warning_local_save", "Experimental->download_steamhttp_requests" and "Experimental->force_steamhttp_success" settings.
+- Removed "Experimental->disable_overlay_warning" and "Experimental->http_online" settings.
+
 ## v2.0.1
 
 - "Generator->AchievementsImages" setting renamed to "Generator->AchievementImages"
